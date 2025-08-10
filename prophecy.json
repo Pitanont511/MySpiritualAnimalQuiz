@@ -1,0 +1,82 @@
+{
+  "ENFP": {
+    "animal": "Otter — Spirit of Endless Rivers",
+    "prophecy": "You are the Otter, a playful spirit who turns every ripple into a new adventure. Curious and alive, you dive into life’s mysteries with laughter, connecting hearts across vast waters. Your boundless enthusiasm reminds the world that joy is found in exploration and wonder.",
+    "fun_fact": "Did you know? Otters hold hands while sleeping to stay together, and use rocks as tools to open shellfish!"
+  },
+  "ENTP": {
+    "animal": "Penguin — Explorer of Frozen Worlds",
+    "prophecy": "You are the Penguin, bold adventurer of endless seas and skies. Your cleverness and humor light the way through even the harshest storms. Where others see obstacles, you find paths — and build new worlds from ice and dreams.",
+    "fun_fact": "Did you know? Penguins have unique calls like personal 'names,' allowing them to recognize their mate or chick in vast crowded colonies!"
+  },
+  "ENTJ": {
+    "animal": "Lion — Sovereign of Sunlit Plains",
+    "prophecy": "You are the Lion, commanding force of courage and vision. With a roar that shapes destinies, you lead others not through fear, but through unwavering purpose. The world bends, not by your will, but by the strength of your spirit.",
+    "fun_fact": "Did you know? Lions are the only big cats that live in social groups — working together in prides to hunt and protect their territory!"
+  },
+  "ENFJ": {
+    "animal": "Horse — Herald of Open Horizons",
+    "prophecy": "You are the Horse, noble heart racing toward tomorrow’s light. With empathy and courage, you lift others upon your back, carrying dreams across distant fields. Your journey teaches that true leadership moves with grace, not force.",
+    "fun_fact": "Did you know? Horses express emotions with their ears, eyes, and nostrils — and form deep lifelong bonds with their herds!"
+  },
+  "INFP": {
+    "animal": "Raven — Dreamer of Twilight Skies",
+    "prophecy": "You are the Raven, keeper of mysteries and endless transformations. Your soul travels unseen paths, crafting meaning where others see only shadows. Through your dreams, the world learns to hope, to wonder, and to imagine anew.",
+    "fun_fact": "Did you know? Ravens can imitate sounds — even human speech — and remember faces for years!"
+  },
+  "INFJ": {
+    "animal": "Pygmy Hippopotamus — Dreamkeeper of Quiet Rivers",
+    "prophecy": "You are the Pygmy Hippopotamus, guardian of unseen worlds and tender harmonies. Within still waters, you carry vast dreams few will ever glimpse. Your soul teaches that quiet persistence shapes the strongest foundations.",
+    "fun_fact": "Did you know? Pygmy hippos secrete a pinkish 'blood sweat' fluid that acts as natural sunscreen!"
+  },
+  "INTP": {
+    "animal": "Coral — Builder of Forgotten Kingdoms",
+    "prophecy": "You are the Coral, patient artisan of unseen empires. Drifting slowly through time, you weave vast cities of color and life beneath the waves. Your wisdom teaches that even the smallest touch can build worlds.",
+    "fun_fact": "Did you know? Corals can change color when stressed — and some glow brightly under ultraviolet light!"
+  },
+  "INTJ": {
+    "animal": "Beaver — Architect of Silent Dreams",
+    "prophecy": "You are the Beaver, engineer of hidden wonders and patient futures. Brick by invisible brick, you shape lasting worlds where others see only obstacles. Your genius lies not in speed, but in enduring vision.",
+    "fun_fact": "Did you know? Beavers can cut down trees with their teeth and build elaborate dams to create safe ponds for their homes!"
+  },
+  "ISFJ": {
+    "animal": "Axolotl — Healer of Hidden Waters",
+    "prophecy": "You are the Axolotl, gentle keeper of renewal and restoration. Your serene presence nurtures the fragile threads of life, healing what others believe lost. Through you, hope regenerates again and again.",
+    "fun_fact": "Did you know? Axolotls can regrow entire limbs — and even parts of their heart and brain!"
+  },
+  "ISFP": {
+    "animal": "Hornbill — Artisan of Verdant Skies",
+    "prophecy": "You are the Hornbill, creator of vibrant sanctuaries in wild places. Independent and radiant, you carve beauty into the living world, one call, one brushstroke of color at a time. Your spirit reminds us that freedom and art are born from love.",
+    "fun_fact": "Did you know? Hornbills form lifelong pairs, working together to care for their young and fiercely defending their territory!"
+  },
+  "ISTJ": {
+    "animal": "Bear — Guardian of Enduring Forests",
+    "prophecy": "You are the Bear, a fortress of patience and methodical wisdom. Through quiet strength, you prepare, endure, and protect the unseen foundations of the world. Your presence is a reminder that true leadership begins with resilience.",
+    "fun_fact": "Did you know? Bears remember food sources years later and have a sense of smell seven times stronger than a bloodhound!"
+  },
+  "ISTP": {
+    "animal": "Octopus — Weaver of Hidden Currents",
+    "prophecy": "You are the Octopus, silent inventor of the deep. Adaptable and brilliant, you solve life's puzzles with quiet mastery, shaping the unseen forces around you. Your movements remind us that true strength lies in flexibility and imagination.",
+    "fun_fact": "Did you know? Octopuses can solve puzzles, open jars, and even regrow lost limbs!"
+  },
+  "ESTP": {
+    "animal": "Slime Mold — Pathfinder of Forgotten Trails",
+    "prophecy": "You are the Slime Mold, swift thinker of living mazes. Without hesitation, you adapt to challenges, charting brilliant paths where none existed. Your dynamic spirit teaches others the art of movement, survival, and endless reinvention.",
+    "fun_fact": "Did you know? Slime molds — though single-celled — can solve mazes and map out the shortest paths to food!"
+  },
+  "ESTJ": {
+    "animal": "Chicken — Sentinel of Hearth and Field",
+    "prophecy": "You are the Chicken, brave and vigilant steward of everyday miracles. With curiosity and wisdom, you uncover truths hidden in plain sight. Your steady spirit reminds the world that guardianship begins at home.",
+    "fun_fact": "Did you know? Chickens communicate with their chicks before they even hatch — clucking to their eggs and hearing soft peeps back!"
+  },
+  "ESFP": {
+    "animal": "Snake — Dancer of Shifting Sands",
+    "prophecy": "You are the Snake, agile spirit weaving between earth and sky. With fearless grace, you embrace transformation, living fully in the dance of every fleeting moment. Through you, the world remembers that change is not to be feared — but celebrated.",
+    "fun_fact": "Did you know? Some snakes can 'fly' by flattening their bodies and gliding between trees!"
+  },
+  "ESFJ": {
+    "animal": "Lobster — Guardian of Tides",
+    "prophecy": "You are the Lobster, steadfast protector of your community, resilient and unwavering. In storms and calm alike, you weave loyalty and strength into every bond you touch. Your spirit builds safe harbors where others find shelter and belonging.",
+    "fun_fact": "Did you know? Lobsters can regenerate lost claws and legs — and some can live over 50 years!"
+  }
+}

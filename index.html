@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Your Spirit Animal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+   <div id="main-heading">
+    <h1><span data-i18n="startTitle"></span></h1>
+    <p class="subtitle"><span data-i18n="subtitle"></span></p>
+   </div>
+
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <label for="playerName"><span data-i18n="nameLabel"></span></label>
+      <input type="text" id="playerName" placeholder="Type your name..." />
+      <button id="start-btn"><span data-i18n="startButton"></span></button>
+      <p class="start-note"><span data-i18n="note"></span></p> 
+      <p class="start-quote"><span data-i18n="quote"></span></p>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" style="display:none;">
+      <div id="question-box">
+        <div id="question-text" class="question-text"></div>
+        <div id="choices"></div>
+        <div id="explanation-placeholder" class="explanation"></div>
+        <div class="nav-buttons">
+          <button class="back-button" onclick="previousQuestion()">
+            <span data-i18n="back">Back</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Transition Page (built into quiz-screen flow) -->
+    <div id="transition-screen" style="display: none;">
+       <div class="transition-text"></div>
+       <button id="transition-continue-btn" class="continue-btn" onclick="nextQuestion()">Continue</button>
+   </div>
+
+
+    <!-- Result Screen -->
+    <div id="result-screen" style="display:none;">
+      <h2 id="final-result-name"></h2>
+      <p id="final-animal-title" class="animal-title"></p>
+      <p id="final-animal-subtitle" class="animal-subtitle"></p>
+      <img id="final-animal-image" class="animal-illustration" src="" alt="Spirit Animal Image" />
+      <p id="final-prophecy"></p>
+      <p id="final-fact"></p>
+      <p id="final-mbti-type" class="mbti-type"></p>
+
+      <a href="https://openlink.co/wawsanctuary" target="_blank">
+        <img src="qr-code.jpg" class="qr-code" alt="QR Code to what a WHY Sanctuary" />
+      </a>
+      <p class="qr-caption"><span data-i18n="qrCaption"></span></p>
+      <button id="continue-btn" onclick="goToBrand()">Continue</button>
+    </div>
+  </div>
+     
+<!-- Brand Interstitial Screen -->
+<div id="brand-screen" style="display: none;">
+  <h2>Thanks for discovering your spirit animal!</h2>
+  <p>Before you download your card, take a moment to reflect with us at What a WHY Sanctuary.</p>
+  <img src="logo.png" alt="Brand Logo" style="max-width: 150px; margin: 1rem auto;">
+  <button id="to-download-btn" onclick="goToDownload()">Continue to Download</button>
+</div>
+
+<!-- Final Download Screen -->
+<div id="download-screen" style="display: none;">
+
+  <!-- Portrait Card -->
+  <div id="portrait-card-wrapper" style= "display: none;">
+    <div class="portrait-card" id="portrait-card">
+      <img id="card-animal-image" class="animal-illustration" src="" alt="Spirit Animal Image" />
+      <h2 id="card-animal-title" class="portrait-card-animal">Animal</h2>
+      <p id="card-animal-subtitle" class="animal-subtitle"></p>      
+      <p id="card-player-name" class="portrait-card-player-name">Name</p>
+      <p id="card-mbti-type" class="portrait-card-mbti">MBTI: XXXX</p>
+      <p id="card-prophecy" class="portrait-card-prophecy">Prophecy goes here</p>
+      <p id="card-fact" class="portrait-card-quote">Fun fact or quote</p>
+    </div>
+  </div>
+
+  <!-- Social Card -->
+  <div id="social-card-wrapper" style= "display: none;">
+    <div class="social-card" id="social-card">
+      <img id="social-animal-image" class="animal-illustration" src="" alt="Spirit Animal Image" />
+      <h2 id="social-animal-title" class="social-card-animal-title">Animal</h2>
+      <p id="social-animal-subtitle" class="animal-subtitle"></p>
+      <p id="social-player-name" class="social-card-player-name">Name</p>
+      <p id="social-mbti-type" class="social-card-mbti">MBTI: XXXX</p>
+      <p id="social-prophecy" class="social-card-prophecy">Prophecy text</p>
+      <p id="social-fact" class="social-card-quote">Inspirational line</p>
+    </div>
+  </div>
+
+  <!-- Download Button -->
+  <button id="download-btn" onclick="downloadResponsiveCard()">Download My Spirit Card</button>
+  <button id="retake-btn" onclick="retakeQuiz()">
+  <span data-i18n="retake">Retake Quiz</span>
+  </button>
+</div>
+
+
+  <!-- Global Footer (place this once at the bottom) -->
+       <div class="footer">
+          <div class="footer-left">
+            <button class="toggle-music" onclick="toggleMusic()">🔇</button>
+          </div>
+          <div class=" footer-right language-switch">
+                  <button onclick="setLanguage('en')">EN</button>
+                  <button onclick="setLanguage('th')">TH</button>
+             </div>
+          </div>
+
+  <!-- Single Audio Element -->
+  <audio id="bg-music" autoplay loop muted hidden>
+    <source src="audio/bg-music.mp3" type="audio/mpeg" />
+  </audio>
+
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js" defer></script>
+
+</body>
+</html>
